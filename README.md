@@ -42,7 +42,7 @@ O MVP busca demonstrar a proposta inicial de uma plataforma digital voltada para
 ### 🔧 Passo a Passo
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/brenoACS/MVP-Backend-Projeto-tere
+   git clone https://github.com/brenoACS/MVP-Backend-Projeto-tere.git
    ```
 2. Acesse a pasta backend/src do projeto com o VS Code:
    ```bash
