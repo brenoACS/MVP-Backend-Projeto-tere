@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terê Verde Online — Eventos</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/responsive.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./src/LOGO.png" alt="logo" />
+    </div>
+
+   <nav>
+    <a href="index.html">Parques</a>
+      <a href="contato.html">Contato</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="login.html">Login</a>
+    </nav>
+
+    <div class="search" title="Pesquisar">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16a6.471 6.471 0 004.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM10 14a4 4 0 110-8 4 4 0 010 8z"></path></svg>
+    </div>
+  </header>
+
+  <!-- Área em destaque com background decorativo -->
+  <section class="events-hero">
+    <div class="content">
+      <div class="events-hero-label">Eventos em Destaque</div>
+      <div id="featured-events" class="featured-grid">
+        <!-- preenchido dinamicamente pelo js quando houver eventos -->
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="editable-events" class="content">
+      <h1>Eventos</h1>
+      <div id="filter-bar" class="filter-bar">
+        <!-- filtros serão gerados dinamicamente -->
+      </div>
+      <div class="event-card">
+        <h3>Trilha guiada</h3>
+        <div class="event-meta">Data: 01/01/2026 — Local: Parque Municipal</div>
+      </div>
+      <div class="event-card">
+        <h3>Palestra sobre conservação</h3>
+        <div class="event-meta">Data: 15/01/2026 — Local: Auditório Central</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/content-load.js" defer></script>
+  <script src="./js/auth-nav.js" defer></script>
+</body>
+</html>
