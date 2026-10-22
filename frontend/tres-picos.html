@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terê Verde Online - Parque Nacional dos Três Picos</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/responsive.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./src/LOGO.png" alt="logo" />
+    </div>
+
+     <nav>
+    <a href="index.html">Parques</a>
+      <a href="contato.html">Contato</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <div class="search" title="Pesquisar">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16a6.471 6.471 0 004.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM10 14a4 4 0 110-8 4 4 0 010 8z"></path></svg>
+    </div>
+  </header>
+    <main>
+        <section class="park-hero" aria-hidden="false" style="background-image: url('./src/BannerTrês Picos.jpg')"></section>
+        <section class="park_detail">
+          <h2>Parque Nacional dos Três Picos</h2>
+          <div class="park_inner">
+            <div class="park_text infos_park">
+              <h3>Informações Gerais</h3>
+              <p>O Parque Estadual dos Três Picos, localizado na região serrana do Rio de Janeiro, é a maior unidade de conservação estadual do RJ. Com formações rochosas imponentes, Mata Atlântica preservada e rica biodiversidade, o parque oferece trilhas, mirantes e áreas para escalada e camping, sendo um destino ideal para ecoturismo, aventura e contato direto com a natureza.</p>
+            </div>
+
+            <aside class="park_card" aria-label="Cartão com horário de funcionamento">
+              <div class="card-image">
+                <img src="./src/funcionamento-tres-picos.jpg" alt="Horário de Funcionamento" />
+                <div class="card-overlay">Horário de Funcionamento</div>
+                <div class="card-content">
+                  <p><strong>TTerça a Domingo:</strong> 8h às 17h</p>
+                  <p><strong>Segunda-feira:</strong> Fechado para manutenção</p>
+                  <p><strong>Última entrada:</strong> 15h30</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <section class="trilhas">
+           <div class="trilhas_inner">
+            <button class="trails-arrow left" aria-label="Anterior">‹</button>
+
+            <div class="trail-slide">
+              <div class="trail-image">
+                <img src="" alt="" />
+              </div>
+
+              <div class="trail-info"></div>
+            </div>
+
+            <button class="trails-arrow right" aria-label="Próxima">›</button>
+          </div>
+
+          <div class="trails-dots" aria-hidden="true"></div>
+            <div class="trails-data" style="display:none;">
+             <div class="trail-item">
+              <div class="trail-image"><img src="./src/cabeca-de-dragao.jpg" alt="Trilha Cabeça de Dragão"></div>
+              <div class="trail-info">
+                <h3>Trilha Cabeça de Dragão</h3>
+                <p class="trail-meta"><strong>Recomendada:</strong> ★★★★★</p>
+                <p class="trail-meta"><strong>Dificuldade:</strong> Difícil</p>
+                <p class="trail-meta"><strong>Km:</strong> ~ 6,8 km</p>
+                <p class="trail-desc">Caminhada até o topo da Serra da Cabeça do Dragão, com vistas panorâmicas do parque..</p>
+              </div>
+            </div>
+
+            <div class="trail-item">
+              <div class="trail-image"><img src="./src/pedra-caixa-de-fosforo.jpg" alt="Trilha Pedra da Caixa de Fósforo"></div>
+              <div class="trail-info">
+                <h3>Trilha Pedra da Caixa de Fósforo</h3>
+                <p class="trail-meta"><strong>Recomendada:</strong> ★★★★☆</p>
+                <p class="trail-meta"><strong>Dificuldade:</strong> Moderada</p>
+                <p class="trail-meta"><strong>Km:</strong> ~8,9 km</p>
+                <p class="trail-desc">Trajeto que leva até a famosa “caixa de fósforo”, uma formação rochosa instável, através de mata e trechos íngremes.</p>
+              </div>
+            </div>
+
+            <div class="trail-item">
+              <div class="trail-image"><img src="./src/pico-dos-dois-bicos.jpg" alt="Trilha Pico dos Dois Bicos"></div>
+              <div class="trail-info">
+                <h3>Trilha dos Dois Bicos</h3>
+                <p class="trail-meta"><strong>Recomendada:</strong> ★★★★☆</p>
+                <p class="trail-meta"><strong>Dificuldade:</strong> Difícil (depente do trecho)</p>
+                <p class="trail-meta"><strong>Km:</strong> ~ 7,37 km</p>
+                <p class="trail-desc">Caminhada por cristas rochosas dos Dois Bicos, com trechos expostos e subida com corda, ideal para quem gosta de aventura.</p>
+              </div>
+            </div>
+
+            <div class="trail-item">
+              <div class="trail-image"><img src="./src/bico-maior.jpg" alt="Trilha Bico Maior"></div>
+              <div class="trail-info">
+                <h3>Trilha Bico Maior</h3>
+                <p class="trail-meta"><strong>Recomendada:</strong> ★★★★★</p>
+                <p class="trail-meta"><strong>Dificuldade:</strong> Difícil</p>
+                <p class="trail-meta"><strong>Km:</strong> ~ 5,1 km</p>
+                <p class="trail-desc">Subida desafiadora passa por estrada de terra e trilha aberta até o cume do Bico Maior, com belas paisagens.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="flora">
+          <div class="flora-inner">
+            <div class="flora-media">
+              <img class="flora-image" src="./src/flora-tres-picos.jpg" alt="Flora do Parque Estadual dos Três Picos" />
+            </div>
+
+            <div class="flora-right">
+              <div class="flora-info">
+                <h2>Flora</h2>
+                <p>A flora do Parque Estadual dos Três Picos é típica da Mata Atlântica, com florestas densas, matas nebulares e campos de altitude. O parque abriga grande variedade de orquídeas, bromélias, palmeiras e árvores de grande porte como jequitibás e jacarandás.</p>
+              </div>
+
+              <aside class="flora-facts">
+                <h3>Fatos Rápidos sobre a Flora</h3>
+                <ul>
+                  <li>Parte da Mata Atlântica mais preservada do RJ</li>
+                  <li>Abriga mais de 200 espécies de bromélias e orquídeas.</li>
+                  <li>Presença de matas nebulares, sempre úmidas e ricas em epífitas</li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="fauna">
+          <div class="fauna-inner">
+            <div class="fauna-media">
+              <img class="fauna-image" src="./src/fauna-tres-picos.jpg" alt="Fauna do Parque Estadual dos Três Picos" />
+            </div>
+
+            <div class="fauna-right">
+              <div class="fauna-info">
+                <h2>Fauna</h2>
+                <p>A fauna é extremamente rica, incluindo felinos como puma e jaguatirica, além do muriqui-do-sul, primata ameaçado de extinção. A região também é destaque pela diversidade de aves e anfíbios.</p>
+                </div>
+                <aside class="fauna-facts">
+                  <h3>Fatos Rápidos sobre a Fauna</h3>
+                  <ul>
+                    <li>Abriga 5 espécies de felinos (puma, jaguatirica, maracajá, gato-mourisco, gato-do-mato)</li>
+                    <li>Presença do muriqui-do-sul, primata criticamente ameaçado.</li>
+                    <li>Mamíferos como queixada, veado, preguiça e tamanduá apresentam ocorrência</li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+          </section>
+        
+</main>
+
+  <script src="./js/script.js" defer></script>
+  <script src="./js/auth-nav.js" defer></script>
+  <script src="./js/park-admin.js" defer></script>
+</body>
+</html>
