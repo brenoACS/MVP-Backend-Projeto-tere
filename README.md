@@ -20,13 +20,14 @@ O MVP foi desenvolvido com base na situação-problema referente ao **Circuíto 
 ---
 
 ## 🌱 **Descrição do MVP**
-O **Terê Circuito Verde** é um protótipo Front-End que apresenta:
+O **Terê Circuito Verde** é um protótipo Full-Stack que apresenta:
 
 - Listagem de Parques da cidade de Teresópolis, e suas trilhas.  
 - Informações sobre fauna e flora local  
 - Dados gerais sobre parques e horários de funcionamento  
 - Navegação simples, amigável e responsiva  
-- Conteúdo estruturado para apoiar o ecoturismo e a educação ambiental  
+- Conteúdo estruturado para apoiar o ecoturismo e a educação ambiental
+- Banco de dados simples utilizando SQLite & SQLite3
 
 O MVP busca demonstrar a proposta inicial de uma plataforma digital voltada para o turismo ecológico da região.
 
@@ -36,47 +37,28 @@ O MVP busca demonstrar a proposta inicial de uma plataforma digital voltada para
 
 ### ✔️ Pré-requisitos
 - Navegador moderno (Chrome, Edge, Firefox etc.)
-- Opcional: Extensão *Live Server* no VSCode para melhor experiência
+- Acesso ao VS Code
 
 ### 🔧 Passo a Passo
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/KaSampaio/TereCircuitoVerde.git
+   git clone https://github.com/brenoACS/MVP-Backend-Projeto-tere
    ```
-2. Acesse a pasta do projeto:
+2. Acesse a pasta backend/src do projeto com o VS Code:
    ```bash
-   cd TereCircuitoVerde
+   cd backend
+   cd src
    ```
-3. Para executar com servidor local (recomendado):
-   - Abra o projeto no VSCode  
-   - Clique com o botão direito em **index.html**  
-   - Selecione **Open with Live Server**
+3. Para iniciar o servidor Node.Js (necessário):
+   - Tenha o Node.js instalado no computador.
+   - Com o Node.js instalado, instale o NPM na pasta src pelo terminal do VS Code "npm install"
+   - Após instalar o npm, inicie o servidor com "npm start"
 
 4. Para executar sem servidor local:
    - Basta abrir o arquivo **index.html** diretamente no navegador.
 
-Ou acesse diretamente pelo GitHub Pages: 
-[Terê Circuito Verde](https://kasampaio.github.io/TereCircuitoVerde/)
----
 
 ## 📌 Informações Adicionais
-- O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**.  
-- Todo o conteúdo foi organizado pensando na experiência do usuário.  
-- A aplicação está preparada para evoluir futuramente com:
-  - Integração com APIs externas  
-  - Sistema de login e personalização  
-  - Mapa interativo  
-  - Filtros avançados de trilhas  
-
----
-
-## 🎤 Pitch
-
-➡ [Pitch_Projeto_Terê_Verde.pdf](./Pitch/Pitch_Projeto_Ter%C3%AA_Verde.pdf)
-
-O pitch aborda:
-- A contextualização do problema (dificuldade em encontrar informações confiáveis sobre trilhas em Teresópolis)  
-- A solução proposta pelo app **Terê Verde**  
-- As principais funcionalidades do MVP  
-- A demonstração da interface e fluxo principal do usuário  
-- Os próximos passos para evolução do projeto  
+- O Front-End foi desenvolvido utilizando **HTML, CSS e JavaScript**.
+- O Back-End foi desenvolvido utilizando **Node.Js, NPM, Express.js, SQLite & SQLite3**.  
+- Todo o conteúdo foi organizado pensando na experiência do usuário.
